@@ -44,7 +44,7 @@ resource storageAccount 'Microsoft.Storage/storageAccounts@2022-05-01' = {
     }
   }
 
-  module appService 'modules/appModule.bicep' = [  for i in range(0,2): {
+  module appService 'modules/appStuff.bicep' = [  for i in range(0,2): {
     name: 'appService${appNames[i]}'
     params: {
       location: location
