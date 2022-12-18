@@ -12,7 +12,7 @@ param dbuser string
 param dbpass string
 param dbname string
 
-var appServicePlanSkuName = (environmentType == 'prod' ) ? 'P2V3' : 'B1'
+var appServicePlanSkuName = (environmentType == 'dev' ) ? 'P2V3' : 'B1'
 
 resource appServicePlan 'Microsoft.Web/serverFarms@2022-03-01' = {
   name: appServicePlanName
