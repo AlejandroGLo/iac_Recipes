@@ -6,7 +6,7 @@
             "value": "agalvez-assignment-app-dev-"
         },
       
-        "appServicePlanName2": {
+        "appServicePlanName": {
             "value": "agalvez-assignment-sp-dev"
         },
         "storageAccountName": {
